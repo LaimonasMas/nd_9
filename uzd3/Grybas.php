@@ -17,7 +17,14 @@ class Grybas {
         return $this->svoris;
     }
 
+    public function getArValgomas()
+    {
+        return $this->valgomas;
+    }
 
-
+    public function getArSukirmijes()
+    {
+        return $this->sukirmijes;
+    }
 
 }

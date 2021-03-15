@@ -4,8 +4,8 @@ class Helper {
 
     public static function valgomas()
     {
-        $number = rand(1, 100);
-        if($number < 50) {
+        $number = rand(0, 1);
+        if($number == 0) {
             return true;
         } else {
             return false;
@@ -13,8 +13,8 @@ class Helper {
     }
 
     public static function sukirmijes() {
-        $number = rand(1, 100);
-        if($number < 50) {
+        $number = rand(0, 1);
+        if($number == 0) {
             return true;
         } else {
             return false;
