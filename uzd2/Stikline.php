@@ -19,7 +19,9 @@ class Stikline
 
     public function ispilti()
     {
-        return $this->kiekis;
+        $likutis = $this->kiekis;
+        $this->kiekis = 0;
+        return $likutis;
     }
             
 }
