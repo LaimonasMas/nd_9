@@ -3,7 +3,7 @@
 class Stikline
 {
     private $turis;
-    private $kiekis;
+    private $kiekis = 0;
 
     public function __construct($turis) {
         $this->turis = $turis;
